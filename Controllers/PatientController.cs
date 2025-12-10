@@ -11,7 +11,7 @@ namespace GrapheneTrace.Controllers
         // In-memory list of comments shared by Dashboard and Comments pages
         private static List<Comment> _comments = new List<Comment>();
 
-        // GET: /Patient/Dashboard
+        // GET: /Patient/Dashboard view
         [HttpGet]
         public IActionResult Dashboard()
         {

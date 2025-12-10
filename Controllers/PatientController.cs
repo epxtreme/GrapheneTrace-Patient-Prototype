@@ -30,6 +30,7 @@ namespace GrapheneTrace.Controllers
         }
 
         // POST: /Patient/Dashboard  (add new comment from dashboard)
+        // User Story 4: Add patient comment from dashboard
         [HttpPost]
         public IActionResult Dashboard(string commentText)
         {

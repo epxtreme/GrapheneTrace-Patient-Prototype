@@ -12,6 +12,7 @@ namespace GrapheneTrace.Controllers
         private static List<Comment> _comments = new List<Comment>();
 
         // GET: /Patient/Dashboard view
+        // Key metrics displayed on dashboard
         [HttpGet]
         public IActionResult Dashboard()
         {

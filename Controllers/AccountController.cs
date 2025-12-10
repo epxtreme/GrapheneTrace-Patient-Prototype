@@ -10,7 +10,7 @@ namespace GrapheneTrace.Controllers
         {
             return View();
         }
-        // patient login
+        // patient login user story 1
         // POST: /Account/Login
         [HttpPost]
         public IActionResult Login(string email, string password)

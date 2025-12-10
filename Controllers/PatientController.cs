@@ -47,6 +47,7 @@ namespace GrapheneTrace.Controllers
         }
 
         // GET: /Patient/Comments  (previous comments page)
+        // User Story 5: Display all previous patient comments
         [HttpGet]
         public IActionResult Comments()
         {
